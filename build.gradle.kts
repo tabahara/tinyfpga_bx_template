@@ -16,4 +16,8 @@ val apioUpload = task<ApioTask>("apioUpload") {
     commandLine("apio", "upload")
 }
 
+val apioSim = task<ApioTask>("apioSim") {
+    commandLine("apio", "sim")
+}
+
 apioUpload.dependsOn(apioBuild)
