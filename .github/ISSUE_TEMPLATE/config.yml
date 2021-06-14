@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+contact_links:
+ - name: community support
+   url: https://example.com/support/
+   about: Please ask and answer questions here.
+ - name: bug report
+   url: https://example.com/bugs/
+   about: Please report issues here.
+  
+  
